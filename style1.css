@@ -1,0 +1,157 @@
+body{
+    background-image: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.main{
+    
+   align-items: center;
+   min-height: 100vh;
+   justify-content: center;
+}
+.form{
+    
+    width: 350px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 25px;
+   text-align: center;
+   justify-content: center;
+   
+  
+    backdrop-filter: blur(20px);
+    margin-left: 30%;
+    
+
+}
+h2{
+    font-weight:bold;
+    font-size: 40px;
+}
+.first{
+    position: relative;
+    margin: 30px 0px;
+    margin-left: 9%;
+    width: 310px;
+    border-bottom:2px solid whitesmoke ;
+    text-align: center;
+}
+input{
+    height: 20px;
+    width:310px ;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: opx 20px 0px 5px;
+    font-size: 16px;
+}
+placeholder{
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    background-color: darkblue;
+    width: 300px;
+    height: 30px;
+    margin-left: 10%;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.last span a{
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+.last a:focus{
+    text-decoration: underline;
+}
+i{
+    position: absolute;
+    right: 0%;
+}
+#result{
+    top: 70px;
+    position: absolute;
+    left: 20px;
+    color: red;
+}
+#email{
+    top: 130px;
+    position: absolute;
+    left: 20px;
+    color: red;
+
+}
+#pass{
+    top: 190px;
+    position: absolute;
+    left: 20px;
+    color: red;
+
+}
+#cpass{
+    top: 250px;
+    position: absolute;
+    left: 20px;
+    color: red;
+}
+.end{
+    background-color: white;
+    color: black;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    /*transform: translate(-50%,-50%) scale(0);
+    transition: transform.4s,top.4s;
+    visibility: hidden; */
+    
+}
+.end i{
+ 
+    color: rgb(23, 168, 120);
+   position: absolute;
+   bottom: 80%;
+   margin-right: 50%;
+   font-size: 200%;
+}
+.btn2{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(23, 168, 120);
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+.btn2 a{
+    text-decoration: none;
+}
+.end1{
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    margin-left: 20%;
+}
+.open-slide{
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
